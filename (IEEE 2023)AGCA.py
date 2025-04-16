@@ -1,7 +1,8 @@
 import torch
 import torch.nn as nn
 from torch.nn import init
-
+# 论文：AGCA: An Adaptive Graph Channel Attention Module for Steel Surface Defect Detection
+# 论文地址：https://ieeexplore.ieee.org/document/10050536
 class AGCA(nn.Module):
     def __init__(self, in_channel, ratio):
         super(AGCA, self).__init__()
