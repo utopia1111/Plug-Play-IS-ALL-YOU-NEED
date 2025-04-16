@@ -2,8 +2,8 @@ import torch
 import torch.nn as nn
 from timm.models.layers import trunc_normal_
 from einops import repeat
-
-
+# 论文：Adapt or Perish: Adaptive Sparse Transformer with Attentive Feature Refinement for Image Restoration, CVPR 2024.
+# 论文地址：https://openaccess.thecvf.com/content/CVPR2024/papers/Zhou_Adapt_or_Perish_Adaptive_Sparse_Transformer_with_Attentive_Feature_Refinement_CVPR_2024_paper.pdf
 class LinearProjection(nn.Module):
     def __init__(self, dim, heads = 8, dim_head = 64, bias=True):
         super().__init__()
