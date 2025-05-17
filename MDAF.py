@@ -3,7 +3,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numbers
 from einops import rearrange
-
+论文题目：SFFNet: A Wavelet-Based Spatial and Frequency  Domain Fusion Network for Remote Sensing  Segmentation
+地址：https://arxiv.org/pdf/2405.01992     
 
 def to_3d(x):
     return rearrange(x, 'b c h w -> b (h w) c')
