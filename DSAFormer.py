@@ -2,7 +2,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from .layers import *
-
+##论文地址：https://www.sciencedirect.com/science/article/pii/S0893608023006974
+##GitHub地址：https://github.com/c-yn/DSANet/blob/main/Desnowing/models/DSANet.py
 
 class EBlock(nn.Module):
     def __init__(self, out_channel, num_res=8):
