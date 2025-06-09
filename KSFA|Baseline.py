@@ -14,6 +14,8 @@ import os
 import math
 from timm.models.layers import DropPath
 import matplotlib.pyplot as plt
+##论文标题：Dual Selective Fusion Transformer Network for Hyperspectral Image Classification
+##论文地址：https://arxiv.org/pdf/2410.03171
 
 def _ntuple(n):
 
