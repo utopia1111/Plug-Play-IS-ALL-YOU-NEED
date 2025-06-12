@@ -4,6 +4,8 @@ import torch.nn.functional as F
 from timm.models.layers import DropPath
 from typing import List
 from efficientnet_pytorch.model import MemoryEfficientSwish
+##论文题目：Rethinking Local Perception in Lightweight Vision Transformer
+##论文地址：https://arxiv.org/pdf/2303.17803
 
 class AttnMap(nn.Module):
     def __init__(self, dim):
