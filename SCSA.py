@@ -9,6 +9,8 @@ from torchvision import transforms
 from torchvision.utils import save_image
 from function import local_adain
 import numpy as np
+##论文题目：SCSA: APlug-and-Play Semantic Continuous-Sparse Attention for Arbitrary Semantic Style Transfer
+##论文地址：https://openaccess.thecvf.com/content/CVPR2025/papers/Shang_SCSA_A_Plug-and-Play_Semantic_Continuous-Sparse_Attention_for_Arbitrary_Semantic_Style_CVPR_2025_paper.pdf
 
 def calc_mean_std(feat, eps=1e-5):
     # eps is a small value added to the variance to avoid divide-by-zero.
